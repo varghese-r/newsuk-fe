@@ -1,0 +1,39 @@
+.paymentForm {
+    border: 1px solid rgb(24, 117, 209);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.submitBtn {
+    width: 100%;
+    background-color: rgb(24, 117, 209);
+    height: 2rem;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: 900;
+    border-radius: 0.5rem;
+}
+
+.errorMessage {
+    color: rgb(232, 21, 21);
+    text-align: center;
+}
+
+.userProfileButton {
+    width: 15rem;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: rgb(24, 117, 209);
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.userProfileButton:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,131 @@
+.userContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.userSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid orange;
+    box-shadow: -2px 2px 4px rgb(245, 226, 192);
+    width: 50%;
+    padding: 2rem;
+}
+
+.userHeading {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.userHeading>span {
+    color: rgb(24, 117, 209);
+    font-weight: 900;
+}
+
+.activeSubcription {
+    color: green;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.productName {
+    margin-top: 2rem;
+    font-size: 1rem;
+
+}
+
+.productName>span {
+    font-weight: 900;
+    color: rgb(24, 117, 209)
+}
+
+.amountPaid {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.amountPaid>span {
+    font-weight: 900;
+    color: rgb(24, 117, 209)
+}
+
+.updateSubscription {
+    height: 2rem;
+    background-color: rgb(24, 117, 209);
+    border: none;
+    color: whitesmoke;
+    width: 15rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+.updateSubscription:hover {
+    cursor: pointer;
+}
+
+.btnGroup {
+    display: flex;
+    width: 40rem;
+    justify-content: space-around;
+    margin: 1rem 0 2rem 0;
+}
+
+.pauseSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pauseSection > p {
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+}
+
+.pauseSection > form {
+    display: flex;
+    width: 20rem;
+    justify-content: space-around;
+}
+
+.pauseSection > input, button {
+    height: 2rem;
+    width: 10rem; 
+    border: 2px solid green;
+    border-radius: 0.5rem;
+    background: none;
+}
+
+.pauseSection > button:hover {
+    cursor: pointer;
+}
+
+.disableBtn {
+    background: lightgrey;
+    color:rgb(24, 117, 209);
+}
+
+.disableBtn:hover {
+    cursor: pointer;
+}
+
+.pauseMsg {
+    color: salmon;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.retentionMsgTxt {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    color: rgb(24, 117, 209);
+}
+
+.confirmDiscount:hover {
+    cursor: pointer;
+}

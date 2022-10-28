@@ -1,0 +1,52 @@
+.login_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23rem;
+    border: 1px solid #ddd;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.login_img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login_img>img {
+    width: 55%;
+}
+
+.login_text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+    color: #1d1d1b;
+    font-weight: bold;
+}
+
+.user_field {
+    width: 85%;
+}
+
+.user_login {
+    width: 85%;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.navigate_overview {
+    margin-top: 2rem;
+    width: 70%;
+    height: 3rem;
+    font-size: 1rem;
+    background-color: rgb(24, 117, 209);
+    border: none;
+    color: aliceblue;
+    border-radius: 0.5rem;
+}
+
+.navigate_overview:hover {
+    cursor: pointer;
+}

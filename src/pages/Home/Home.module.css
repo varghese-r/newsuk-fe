@@ -1,0 +1,10 @@
+.home__banner {
+    background: #f5f5f5;
+    padding: 3rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home__banner > h1 {
+    font-size: 3rem;
+}
